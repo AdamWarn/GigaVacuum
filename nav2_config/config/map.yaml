@@ -1,0 +1,6 @@
+image: /home/adam/ros2_ws/src/nav2_config/resources/map.png        # Path to your map image file
+resolution: 0.050         # The resolution in meters/pixel
+origin: [0.0, 0.0, 0.0]     # The map's origin in the world (x, y, yaw)
+negate: 0                 # Set to 1 if the image has inverted colors
+occupied_thresh: 0.65     # Threshold above which pixels are considered occupied
+free_thresh: 0.196        # Below which pixels are considered free
